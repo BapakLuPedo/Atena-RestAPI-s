@@ -6,12 +6,12 @@ var db = require(__path + '/database/db');
 try {
 var kuhong = db.get('ojan'); // jan diubah
 } catch (e) {
-	console.log('WELCOME TO ZEROYT7 API!') // boleh diubah
+	console.log('WELCOME TO ATENA API's!') // boleh diubah
 }
 
-var creatorList = ['Zero YT7']; // Nama Lu Ngab
+var creatorList = ['KhaelSan']; // Nama Lu Ngab
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)]; // Ini jan diubah
-var key = 'ZeroYT7' // Apikey Lu Ngab
+var key = 'atena-chan' // Apikey Lu Ngab
 
 // Required Modules :
 var ffmpeg = require('fluent-ffmpeg');
@@ -174,12 +174,12 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: `Apikey tidak ditemukan! Silahkan kontak Owner untuk dapatkan Apikey wa.me/6285157740529`
+        message: `Apikey tidak ditemukan! Silahkan kontak Owner untuk dapatkan Apikey wa.me/6282248192917?text=banh+apikeynya+aoa`
     },
     invalidLink: {
         status: false,
         creator: `${creator}`,
-        message: 'Masukan link yang valid!'
+        message: 'Link tidak Valid!'
     },
     invalidkata: {
         status: false,
@@ -235,7 +235,7 @@ var invalidKey = __path + '/views/invalidKey.html' // Apikey Invalid
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------kuhong-api-storage'+'ZeroYT7';
+        var randomTextNumber = random+randomlagi+'---------kuhong-api-storage'+'KhaelSan';
 
 
 router.get('/cekapikey', async (req, res, next) => {
@@ -357,7 +357,7 @@ router.get('/randomquote', async (req, res, next) => {
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput !== `${key}`) return res.sendFile(invalidKey)
 
-       fetch(encodeURI(`https://api.zeks.xyz/api/quote?apikey=alpin1234567`))
+       fetch(encodeURI(`https://api.zeks.xyz/api/quote?apikey=Shiro-Neko`))
         .then(response => response.json())
         .then(data => {
         var result = data;
