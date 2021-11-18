@@ -1,0 +1,13 @@
+{
+
+  "name": "Atena Rest API",
+
+  "description": "Free Rest Api by KhaelSan",
+
+  "repository": "https://github.com/BapakLuPedo/Atena-RestAPI-s",
+
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+
+  "keywords": ["api", "rest-api"]
+
+}
