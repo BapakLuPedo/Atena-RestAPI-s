@@ -16,7 +16,7 @@
 -------
 
 ## ```Deploy to Heroku```
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BapakLuPedo/Atena-RestAPI's)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BapakLuPedo/Atena-RestAPI-s)
 
 ## ```FOLLOW ALL MY SOCIAL MEDIA```
 <p align="center">
